@@ -1,0 +1,6 @@
+{
+  "name": "تیمی نەهێشتنی تاوانی ئەلیکترۆنی - هێڵی گەرم",
+  "description": "ماڵپەڕ و پۆرتاڵی فەرمی هێڵی گەرمی تیمی نەهێشتنی تاوانی ئەلیکترۆنی بۆ ڕاپۆرتکردنی تاوانەکان، چاتی ڕاستەوخۆ، و بەدواداچوونی کەیسەکان.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

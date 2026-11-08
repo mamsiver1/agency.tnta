@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-kurdish: 'Cairo', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-kurdish);
+  }
+}
+
+/* Custom Tactical Cyber Styling */
+.cyber-grid {
+  background-image: linear-gradient(to right, rgba(217, 119, 6, 0.05) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(217, 119, 6, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.radar-sweep {
+  background: conic-gradient(from 0deg at 50% 50%, rgba(245, 158, 11, 0.15) 0deg, transparent 60deg, transparent 360deg);
+  animation: radarRotate 4s linear infinite;
+}
+
+@keyframes radarRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Glass & Glow */
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(217, 119, 6, 0.35);
+}
+
+.emerald-glow {
+  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.35);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #273549;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
